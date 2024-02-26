@@ -13,7 +13,7 @@ Olá, Bem vindo ao meu primeiro Portfólio desenvolvido com os cursos de HTML e 
 
 ## Feito por:
 
-### Joana Santos
+### André Santos
 
 ### Linkedin: https://www.linkedin.com/in/andr%C3%A9-lucas-de-macedo-santos/
 
