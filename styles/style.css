@@ -161,6 +161,7 @@ span{
 
     .cabecalho__menu {
         justify-content: center;
+        gap: 19%;
     }
 
     .apresentacao {
