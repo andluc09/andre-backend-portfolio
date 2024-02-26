@@ -1,7 +1,5 @@
-# portfolio
-Meu primeiro Portfólio desenvolvido com os cursos de HTML e CSS da Alura
-
-# Portfólio Olá, Bem vindo ao meu projeto de portfólio.
+# Portfólio 
+Olá, Bem vindo ao meu primeiro Portfólio desenvolvido com os cursos de HTML e CSS da Alura.
 
 ![image](https://github.com/andluc09/portfolio/blob/main/Captura_de_tela%20_Portfolio.jpeg)
 
