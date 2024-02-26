@@ -1,8 +1,6 @@
 # portfolio
 Meu primeiro Portfólio desenvolvido com os cursos de HTML e CSS da Alura
 
-```
-
 # Portfólio Olá, Bem vindo ao meu projeto de portfólio.
 
 ![image](https://github.com/andluc09/portfolio/blob/main/Captura_de_tela%20_Portfolio.jpeg)
@@ -21,4 +19,4 @@ Meu primeiro Portfólio desenvolvido com os cursos de HTML e CSS da Alura
 
 ### Linkedin: https://www.linkedin.com/in/andr%C3%A9-lucas-de-macedo-santos/
 
-```
+
