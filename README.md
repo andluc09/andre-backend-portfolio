@@ -15,6 +15,6 @@ Olá, Bem vindo ao meu primeiro Portfólio desenvolvido com os cursos de HTML e 
 
 ### André Santos
 
-### Linkedin: https://www.linkedin.com/in/andr%C3%A9-lucas-de-macedo-santos/
+### Linkedin: www.linkedin.com/in/andre-lucas-backend-java
 
 
