@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home - Exemplo</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(135deg, #0D1117, #1f2937);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+        color: #22D4FD;
+    }
+
+    p {
+        font-size: 1.2rem;
+        max-width: 500px;
+        line-height: 1.5;
+        color: #e0e0e0;
+    }
+
+    a {
+        margin-top: 2rem;
+        background: #22D4FD;
+        color: #0D1117;
+        padding: 0.8rem 1.5rem;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s ease;
+    }
+
+    a:hover {
+        background: #1ab0d6;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 10px;
+        font-size: 0.9rem;
+        color: #888;
+    }
+</style>
+</head>
+<body>
+
+    <main>
+        <h1>Bem-vindo ao Meu Site</h1>
+        <p>Você agora está na página principal. Explore nossos conteúdos, conheça nossas novidades e fique por dentro do que preparamos para você.</p>
+        <a href="#">Saber Mais</a>
+    </main>
+
+    <footer>
+        &copy; 2025 Meu Site. Todos os direitos reservados.
+    </footer>
+
+<script>
+    // Exemplo: mensagem no console
+    console.log("Página Home carregada com sucesso!");
+	
+    // Se não veio do loader, manda para load.html
+    if (!sessionStorage.getItem("passouLoader")) {
+        window.location.href = "load.html";
+    } else {
+        // Limpa para que um refresh volte para load.html
+        sessionStorage.removeItem("passouLoader");
+    }
+
+</script>
+
+</body>
+</html>

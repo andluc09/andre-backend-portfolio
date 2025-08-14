@@ -40,5 +40,18 @@
         <!-- Informações de Contato ou Direitos Autorais -->
         <p>Desenvolvido por André Santos.</p>
     </footer>
+	<script>
+    // Exemplo: mensagem no console
+    console.log("Página Home carregada com sucesso!");
+	
+    // Se não veio do loader, manda para load.html
+    if (!sessionStorage.getItem("passouLoader")) {
+        window.location.href = "./load/load.html";
+    } else {
+        // Limpa para que um refresh volte para load.html
+        sessionStorage.removeItem("passouLoader");
+    }
+
+	</script>
 </body>
 </html>

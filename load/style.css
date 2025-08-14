@@ -1,0 +1,35 @@
+  body {
+    background: #0D1117;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* Tela de loading ocupando toda a janela */
+  #loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0D1117;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  /* Conteúdo real do site (oculto no início) */
+  #site-content {
+    display: none; 
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  canvas {
+    background: transparent;
+    display: block;
+  }
